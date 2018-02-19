@@ -1,0 +1,81 @@
+body.index {
+  background-color: #ADD8E6;
+  background-image: url(billgatesgates.png);
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-attachment: fixed;
+  background-position: right
+}
+
+body.contacten {
+  background-color: #ADD8E6;
+  background-image: url(billgatesgates.png);
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-attachment: fixed;
+  background-position: right
+}
+
+body#maps {
+  background-color: #ADD8E6;
+  background-image: url(billgatesgates.png);
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-attachment: fixed;
+  background-position: right
+}
+
+body.filmpje {
+  background-color: #ADD8E6;
+  background-image: url(billgatesgates.png);
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-attachment: fixed;
+  background-position: right
+}
+
+body.biografie {
+  background-image: url(windowsheaven.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+body#bekenddoor {
+  background-image: url(windowsheaven.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: fantasy;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  color: grey;
+  list-style:  square ;
+}
+
+table {
+  background-color: white;
+  border: 4px solid black;
+  border-collapse: collapse;
+}
+
+table th{
+  border: 4px solid black;
+}
+
+table td{
+  border: 4px solid black;
+}
