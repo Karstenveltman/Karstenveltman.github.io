@@ -66,6 +66,10 @@ ul {
   list-style:  square ;
 }
 
+li {
+    float: left;
+}
+
 table {
   background-color: white;
   border: 4px solid black;
