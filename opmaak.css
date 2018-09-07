@@ -64,6 +64,7 @@ a:hover {
 ul {
   color: grey;
   list-style:  square ;
+  overflow: hidden;
 }
 
 li {
