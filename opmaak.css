@@ -63,7 +63,7 @@ a:hover {
 
 ul {
   color: grey;
-  list-style:  square ;
+  list-style: none;
   overflow: hidden;
 }
 
