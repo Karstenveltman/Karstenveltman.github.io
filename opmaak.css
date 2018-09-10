@@ -65,6 +65,7 @@ ul {
   color: grey;
   list-style: none;
   overflow: hidden;
+  background-color: grey;
 }
 
 li {
@@ -77,6 +78,7 @@ li a {
     text-align: center;
     padding: 16px;
     text-decoration: none;
+    background-color: light grey;
 }
 
 table {
