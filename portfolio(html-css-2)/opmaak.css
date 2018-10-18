@@ -22,3 +22,29 @@ header h1 {
   text-align: center;
   text-shadow: 5px 5px 7px #000000;
 }
+
+nav {
+ position: sticky;
+ top: 0px; 
+}
+
+ul {
+  background: #080808;
+  padding: 10px;
+}
+
+ul li {
+  background: #787878;
+  padding: 5px;
+  border: solid 2px white;
+  display: inline-block;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #C0C0C0;
+}
