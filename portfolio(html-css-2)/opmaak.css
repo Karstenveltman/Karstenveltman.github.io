@@ -25,19 +25,18 @@ header h1 {
 
 nav {
  position: sticky;
- top: 0px; 
+ top: 0px;
 }
 
+
 ul {
-  background: #080808;
+  background:rgba(5, 35, 84, 0.3);
   padding: 10px;
 }
 
 ul li {
-  background: #787878;
   padding: 5px;
-  border: solid 2px white;
-  display: inline-block;
+  display: inline-block
 }
 
 ul li a {
