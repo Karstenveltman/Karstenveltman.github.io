@@ -6,7 +6,7 @@
 
 body {
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  background: lightgrey;
+  background: white;
 }
 
 
@@ -30,7 +30,7 @@ nav {
 
 
 ul {
-  background:rgba(5, 35, 84, 0.3);
+  background:rgba(33, 33, 33, 0.7);
   padding: 10px;
 }
 
@@ -40,10 +40,10 @@ ul li {
 }
 
 ul li a {
-  color: white;
+  color: rgb(66, 127, 188 );
   text-decoration: none;
 }
 
 ul li a:hover {
-  color: #C0C0C0;
+
 }
