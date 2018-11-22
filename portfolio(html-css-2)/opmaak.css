@@ -14,13 +14,16 @@ article {
   border: 3px solid #212121;
   margin-left: 50px;
   margin-right: 50px;
-  text-align: center;
   background-color: white;
   border-radius: 10px 10px 10px 10px;
 }
 
+article h2 {
+  text-align: center;
+}
+
 header {
-  background-color: white;
+  background-color:rgb(1,196,196);
   height: 65px;
 }
 
