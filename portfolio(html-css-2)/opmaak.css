@@ -62,8 +62,16 @@ ul li {
   display: inline-block
 }
 
-iframe {
-margin-left: 10px;
+#badgesiframe{
+margin-left: 20%;
+}
+
+iframe{
+  margin-left: 5%;
+}
+
+img{
+  margin-left: 5%;
 }
 
 ul li a {
