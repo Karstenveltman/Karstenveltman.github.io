@@ -28,7 +28,6 @@ header {
 }
 
 footer {
-  border: 3px solid #212121;
   margin-left: 50px;
   margin-right: 50px;
   text-align: center;
@@ -86,4 +85,19 @@ border-radius: 10px 10px 10px 10px;
 background:rgb(1,196,196);
 padding: 10px;
 margin: 0px 10px;
+}
+
+table {
+  margin-left: 5px;
+  margin-bottom: 5px;
+  border: 3px solid #212121;
+  border-collapse: collapse;
+}
+
+table th{
+  border: 4px solid #212121;
+}
+
+table td{
+  border: 4px solid #212121;
 }
