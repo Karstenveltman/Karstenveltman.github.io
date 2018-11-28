@@ -24,6 +24,7 @@ section h2 {
 
 section p {
   margin-left: 5px;
+  margin-bottom: 5px;
 }
 
 header {
@@ -32,11 +33,18 @@ header {
 }
 
 footer {
+  border: 3px solid #212121;
   margin-left: 50px;
   margin-right: 50px;
   text-align: center;
   background-color: white;
   border-radius: 10px 10px 10px 10px;
+}
+
+hr {
+  border: 1px solid #212121;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 header h1 {
@@ -105,4 +113,8 @@ table th{
 
 table td{
   border: 4px solid #212121;
+}
+
+h2 {
+  margin-top: 50px;
 }
