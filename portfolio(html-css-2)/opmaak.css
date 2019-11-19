@@ -18,6 +18,7 @@ section {
   border: 3px solid #212121;
   margin-left: 50px;
   margin-right: 50px;
+  margin-bottom: 20px;
   background-color: white;
   border-radius: 10px 10px 10px 10px;
 }
@@ -60,33 +61,38 @@ header h1 {
 }
 
 nav {
- position: sticky;
- top: 0px;
+  position: sticky;
+  top: 0px;
 }
 
 
 ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   border-radius: 10px 10px 10px 10px;
   background:rgb(105, 105, 105);
   padding: 10px;
   margin: 0px 10px;
+  list-style: none;
 }
 
 ul li {
   padding: 5px;
-  display: inline-block
 }
 
 #badgesiframe{
-margin-left: 40px;
+    width: 100%;
 }
 
-iframe{
-  margin-left: 5%;
+#video{
+  margin-left: 5px;
 }
 
 img{
-  margin-left: 5%;
+  margin-left: 5spx;
+  width: 460px;
+  height: 345px;
 }
 
 ul li a {
@@ -98,27 +104,36 @@ ul li a {
 }
 
 ul li a:hover {
-border-radius: 10px 10px 10px 10px;
-background:rgb(1,196,196);
-padding: 10px;
-margin: 0px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background:rgb(1,196,196);
+  padding: 10px;
+  margin: 0px 10px;
 }
 
 table {
+  border-collapse: collapse;
   margin-left: 5px;
   margin-bottom: 5px;
-  border: 3px solid #212121;
-  border-collapse: collapse;
 }
 
-table th{
-  border: 4px solid #212121;
-}
-
-table td{
-  border: 4px solid #212121;
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 3px solid #212121;
 }
 
 h2 {
   margin-top: 50px;
+}
+
+@media only screen and (max-width: 700px) {
+    img {
+      width: 100%;
+      margin-left: 0px;
+    }
+
+    #video {
+      width: 100%;
+      margin-left: 0px;
+    }
 }
