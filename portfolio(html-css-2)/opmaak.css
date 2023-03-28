@@ -10,7 +10,7 @@ html {
 
 body {
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  background-color:rgb(1,196,196);
+  background-color:rgb(255,255,255);
   font-style: Verdana;
 }
 
@@ -33,8 +33,9 @@ section p {
 }
 
 header {
-  background-color:rgb(1,196,196);
-  height: 65px;
+  background-image: linear-gradient(to bottom right,rgb(9, 75, 100), rgb(11, 79, 108));
+  height: 100px;
+  line-height: 100px;
 }
 
 footer {
@@ -53,11 +54,12 @@ hr {
 }
 
 header h1 {
-  font-size: 300%;
+  font-size: 400%;
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  color: black;
+  color: white;
   text-align: center;
-  text-shadow: 1px 1px 3px #000000;
+  vertical-align: middle;
+  /* text-shadow: 1px 1px 3px #000000; */
 }
 
 nav {
@@ -70,10 +72,10 @@ ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 0px 0px 0px 0px;
   background:rgb(105, 105, 105);
   padding: 10px;
-  margin: 0px 10px;
+  margin: 0px 0px;
   list-style: none;
 }
 
