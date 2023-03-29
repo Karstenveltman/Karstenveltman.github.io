@@ -1,0 +1,228 @@
+/* Global Styles */
+
+/* * {
+	box-sizing: border-box;
+} */
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-image: linear-gradient(to bottom right, #f5f5f5, #ffffff);
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #000000;
+	line-height: 1.5;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+a {
+	color: #01baef;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0b4f6c;
+}
+
+h1 {
+	font-size: 4em;
+	margin: 0;
+}
+
+h2, h3, h4, h5, h6 {
+	margin-top: 0;
+	font-weight: bold;
+	font-size: 2.5em;
+	margin-bottom: 10px;
+	padding-top: 60px;
+}
+
+/* img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+} */
+
+#rightsidepictures {
+	height: 50vh;
+}
+
+#pictures {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr)
+}
+
+#face {
+	border-radius: 50%;
+	border-color: black;
+	display: block;
+	margin: 5vh auto;
+	margin-top: auto;
+	width: 50%;
+	height: auto;
+}
+
+#gamescreenshot {
+	grid-row: 1 / 5;
+	grid-column: 1 / 3;
+	width: auto;
+	height: 100%;
+}
+
+#unityscreenshot {
+	grid-row: 1 / 3;
+	grid-column: 3 / 3;
+	width: auto;
+	height: 37%;
+}
+
+#MEMS {
+	grid-row: 3 / 5;
+	grid-column: 3 / 3;
+	width: auto;
+	height: 68%;
+}
+
+#AIdriving {
+	width: 100%;
+	height: auto;
+}
+
+#eightBITfoto {
+	width: 100%;
+	height: auto;
+}
+
+#pongpicture {
+	width: 100%;
+	height: auto;
+}
+
+p {
+	text-align: left;
+	font-size: 1.2em;
+}
+
+footer {
+	margin-top: 10px;
+    width: calc(min(30vh, 15vw));
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1vw;
+    justify-content: center;
+}
+
+#logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+/* Header Styles */
+
+header {
+	padding-top: 3.5vh;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	background-image: linear-gradient(to bottom right, #062937, #1287BA);
+	color: #fff;
+	height: 96.5vh;
+}
+
+header h2 {
+	padding-top: 30%;
+}
+
+#main-header {
+	text-align: center;
+	width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 60% 20% 20%;
+    margin: 0;
+}
+
+#headerlogos {
+	margin-top: 10px;
+    width: calc(min(30vh, 15vw));
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1vw;
+    justify-content: center;
+}
+
+/* Navigation Styles */
+
+
+#menu {
+	position: fixed;
+	width: 100%;
+}
+nav {
+	background-color: #01baef;
+	color: #fff;
+	padding: 0px;
+	text-align: center;
+	font-size: 1.2em;
+	border-radius: 0px;
+	height: 3.5vh;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding-top: 10px;
+	padding-left: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px;
+	transition: all 0.2s ease-in-out;
+	border-radius: 5px;
+}
+
+nav a:hover {
+	background-color: #fff;
+	color: #01baef;
+}
+
+.popup {
+	position: relative;
+}
+
+.popup-content {
+	display: none;
+	position: absolute;
+	top: 30px;
+	right: 0;
+	background-color: #f2f2f2;
+	padding: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+}
+
+.popup:hover .popup-content {
+	display: block;
+}
