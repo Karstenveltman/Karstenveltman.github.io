@@ -133,12 +133,12 @@ footer {
 /* Header Styles */
 
 header {
-	padding-top: 3.5vh;
+	padding-top: 4vh;
 	display: grid;
 	grid-template-columns: 50% 50%;
 	background-image: linear-gradient(to bottom right, #062937, #1287BA);
 	color: #fff;
-	height: 96.5vh;
+	height: 96vh;
 }
 
 header h2 {
@@ -180,7 +180,7 @@ nav {
 	text-align: center;
 	font-size: 1.2em;
 	border-radius: 0px;
-	height: 3.5vh;
+	height: 4vh;
 }
 
 nav ul {
